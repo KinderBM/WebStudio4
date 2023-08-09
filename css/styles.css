@@ -34,7 +34,8 @@ footer {
 }
 
 .request-our-solution {
-    background-color: #2f303a;
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url("../images/hero.jpg");
     width: 1600px;
     height: 600px;
     flex-shrink: 0;
@@ -75,6 +76,12 @@ footer {
     align-items: center;
     padding: 10px 20px;
     margin: 10px 700px 200px 700px;
+}
+
+.request-our-solution-button:hover,
+.request-our-solution-button:focus {
+    background-color: #fff;
+    color: #2196F3;
 }
 
 .header .header-nav .header-links,
@@ -439,7 +446,7 @@ img {
 .img-logo4 {
     width: 106px;
     height: 60px;
-    color: #303030;
+    color: #AFB1B8;
 }
 
 .location {
@@ -462,14 +469,22 @@ address {
 }
 
 .find-us-on {
-    color: #FFF;
     margin-left: 500px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    line-height: normal;
+    padding-top: 15px;
+    text-transform: uppercase;
 }
 .icons-list1 {
     display: flex;
     margin-top: 30px;
+    margin-left: 500px;
     gap: 10px;
-    justify-content: center;
 }
 
 .icons-list1 .icon1 {
