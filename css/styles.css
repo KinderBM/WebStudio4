@@ -449,6 +449,15 @@ img {
     color: #AFB1B8;
 }
 
+.img-logo:hover, .img-logo:focus,
+.img-logo1:hover, .img-logo1:focus,
+.img-logo2:hover, .img-logo2:focus,
+.img-group:hover, .img-group:focus,
+.img-logo3:hover, .img-logo3:focus,
+.img-logo4:hover, .img-logo4:focus {
+    color: var(--brand-color);
+}
+
 .location {
     color: var(--background-color);
     line-height: 1.18px;
